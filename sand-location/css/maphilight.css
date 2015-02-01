@@ -1,0 +1,88 @@
+.map_location {
+  width: 1158px;
+  margin: 0 auto;
+}
+.area_list {
+  float: left;
+  width: 458px;
+}
+.area_list ul {
+  padding: 0;
+  width: 229px;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+}
+.area_list ul li {
+  width: 100%;
+  float: left;
+  margin-bottom: 13px;
+}
+.area_list ul li div {
+  color: #666666;
+  padding-left: 56px;
+  display: none;
+}
+.area_list ul li div p {
+  margin: 0;
+  padding: 0;
+  padding-top:10px;
+}
+.area_list ul li a {
+  background: url(../img/img-map_plus.png) no-repeat;
+  padding-left: 56px;
+  height: 39px;
+  line-height: 39px;
+  display: inline-block;
+  text-decoration: none;
+  color: #222222;
+  cursor: pointer;
+}
+.area_list ul li a.active {
+  background: url(../img/img-map_minus.png) no-repeat;
+}
+.area_list ul li {
+  list-style: none;
+}
+.map_area {
+  float: right;
+  width: 700px;
+  position: relative;
+}
+#overlay {
+  position: absolute;
+  background: url(../img/img-map_pin.png);
+  width: 20px;
+  height: 26px;
+  z-index: 100;
+  display: none;
+  top: 0;
+}
+#overlay.seattle {
+  top: 104px;
+  left: 170px;
+}
+#overlay.portland {
+  top: 151px;
+  left: 160px;
+}
+#overlay.san_francisco {
+  top: 261px;
+  left: 146px;
+}
+#overlay.los_angeles {
+  top: 333px;
+  left: 203px;
+}
+#overlay.newyork {
+  top: 201px;
+  left: 631px;
+}
+#overlay.dutch_harbor {
+  top: 99px;
+  left: 22px;
+}
+#overlay.gulf_region {
+  top: 424px;
+  left: 400px;
+}
